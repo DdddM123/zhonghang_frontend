@@ -12,7 +12,7 @@ const routes = [
     {
         path: "/",
         component: Layout,
-        redirect: "/demand",
+        redirect: "/system",
         children: [
             {path: '/demand', component: Demand},
             {path: '/material', component: Material},
